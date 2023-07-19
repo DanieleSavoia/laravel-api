@@ -19,7 +19,7 @@
 		</div>
 	@endif
 
-	<div class="card mx-auto rounded" style="width: 50vw">
+	<div class="card mx-auto rounded mb-3 mt-3" style="width: 50vw">
 		<div class="card-body">
 			<span class="card-title fs-5 fw-bold">TECHNOLOGY: </span><span class="fs-4">{{ $technology->name }}</span>
 			<h4>Projects using this Technology:</h4>

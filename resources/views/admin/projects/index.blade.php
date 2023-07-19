@@ -53,7 +53,7 @@
 							<td>
 								<a href="{{ route('admin.projects.show', ['project' => $project]) }}"
 									class="btn btn-success btn-sm fs-6">Show</a>
-								<a href="{{ route('admin.projects.edit', ['project' => $project]) }}" class="btn btn-dark btn-sm fs-6">Edit</a>
+								<a href="{{ route('admin.projects.edit', ['project' => $project]) }}" class="btn btn-warning btn-sm fs-6">Edit</a>
 								<button type="button" class="btn btn-danger btn-sm js-delete fs-6" data-resource="project"
 									data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="{{ $project->slug }}">
 									Delete

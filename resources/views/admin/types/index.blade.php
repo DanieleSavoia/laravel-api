@@ -38,7 +38,7 @@
 							<td class="fs-10">{{ $type->id }}</td>
 							<td class="fs-4">{{ $type->name }}</td>
 							<td class="fs-15">{{ $type->description }}</td>
-							<td>
+							<td class>
 								<a href="{{ route('admin.types.show', ['type' => $type]) }}" class="btn btn-success btn-sm">Show</a>
 								<a href="{{ route('admin.types.edit', ['type' => $type]) }}" class="btn btn-warning btn-sm">Edit</a>
 								<button type="button" class="btn btn-danger btn-sm js-delete" data-resource="type" data-bs-toggle="modal"

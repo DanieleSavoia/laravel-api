@@ -12,7 +12,7 @@
 		</div>
 	@endif
 
-	<div class="card mx-auto rounded" style="width: 50vw">
+	<div class="card mx-auto rounded mt-3 mb-3" style="width: 50vw">
 		<div class="card-body">
 			<h2 class="card-title">Type: <span class="fst-italic text-uppercase"> "{{ $type->name }}"</span></h2>
 			<p class="card-text mt-5">Description:</p>

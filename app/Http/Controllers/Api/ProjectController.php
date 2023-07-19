@@ -3,20 +3,14 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\Post;
-use Illuminate\Http\Request;
+use App\Models\Project;
 
-class PostController extends Controller
+class ProjectController extends Controller
 {
     public function index()
     {
-        $posts = Post::with('category', 'tags')->paginate(5);
+        $projects = Project::paginate(5);
 
-        return response()->json($posts);
-    }
-
-
-    public function show(Post $post)
-    {
+        return response()->json($projects);
     }
 }

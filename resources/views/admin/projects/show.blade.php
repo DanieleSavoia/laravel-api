@@ -20,9 +20,6 @@
 	@endif
 
 	{{-- Back to Index --}}
-	<a href="{{ route('admin.projects.index') }}" class="btn btn-primary px-4 mb-3 fs-4"><i class="bi bi-card-list"></i>
-		Index</a>
-
 	<div class="card mx-auto rounded">
 		<div class="row no-gutters">
 			<div class="col-12 col-md-4 d-flex align-items-center justify-content-center" style="">
@@ -63,4 +60,10 @@
 			</div>
 		</div>
 	</div>
+	<div class="d-flex justify-content-center mt-3">
+		<a href="{{ route('admin.projects.index') }}" class="btn btn-primary px-4 mb-3 fs-4">
+			<i class="bi bi-card-list"> </i>Index
+		</a>
+	</div>
+	
 @endsection

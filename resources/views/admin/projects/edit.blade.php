@@ -108,9 +108,16 @@
 			</div>
 
 
-			<button class="btn btn-success px-5 mt-3 fs-4"><i class="bi bi-pencil-square"></i> Edit</button>
-			<a href="{{ route('admin.projects.index') }}" class="btn btn-secondary fs-4 ms-4 mt-3"><i
+			<div class="mb-3 d-flex justify-content-center">
+				<button class="btn btn-warning px-5 mt-3 fs-4">
+					<i class="bi bi-pencil-square"></i>Edit
+				</button>
+			    <a href="{{ route('admin.projects.index') }}" class="btn btn-danger fs-4 ms-4 mt-3"><i
 					class="bi bi-backspace"></i> Cancel</a>
+			</div>
+
+
+			
 		</form>
 	</div>
 @endsection
